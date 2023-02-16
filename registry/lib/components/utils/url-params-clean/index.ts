@@ -49,6 +49,7 @@ const entry = async () => {
     'vd_source',
     'is_story_h5',
     'buvid',
+    'live_from',
   ]
   const [blockParams] = registerAndGetData('urlParamsClean.params', builtInBlockParams)
   const builtInSiteSpecifiedParams = [
